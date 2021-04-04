@@ -5,7 +5,7 @@ try {
     var CNT = `\`\`\`Access: ${new Date()} 
 Page: ${window.location}\`\`\``
     var params = {
-        username: "Siddhart.dev",
+        username: "Hooky",
         avatar_url: "",
         content: CNT
     }
