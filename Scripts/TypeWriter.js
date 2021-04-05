@@ -50,7 +50,7 @@ var TxtTypeNoDel = function (el, toRotate, period) {
     this.isDeleting = false;
 };
 
-TxtType.prototype.tick = function () {
+TxtTypeNoDel.prototype.tick = function () {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
 
