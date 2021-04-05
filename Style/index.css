@@ -11,10 +11,8 @@ html, body {
     color: #f0f0f0;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(0, 0, 0);
-    /* background-image: url("https://siddhart.dev/Storage/Background.png"); */
     background: #747373;
-    /* background: linear-gradient(to right top, #051937, #004a6f, #007f87, #00b276, #b2dc51); */
-    background-image: url("https://www.siddhart.dev/Storage/sidd.webp");
+    background-image: url("https://www.bildsben.tech/Storage/sidd.webp");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
