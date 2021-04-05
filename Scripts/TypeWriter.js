@@ -53,8 +53,9 @@ window.onload = function () {
         for (var i = 0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
             var period = elements[i].getAttribute('data-period');
+            var toDeleteVar = elements[i].getAttribute('toDelete');
             if (toRotate) {
-                new TxtType(elements[i], JSON.parse(toRotate), period);
+                new TxtType(elements[i], JSON.parse(toRotate), period, toDeleteVar);
             }
         }
     }, 1000);
