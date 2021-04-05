@@ -37,16 +37,16 @@ TxtType.prototype.tick = function () {
         delta /= 2; 
     }
 
-    if (!this.isDeleting && this.toDelete === true && this.txt === fullTxt) {
+    if (!this.isDeleting && this.toDelete === "true" && this.txt === fullTxt) {
         delta = this.period;
         this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '' && this.toDelete === true) {
+    } else if (this.isDeleting && this.txt === '' && this.toDelete === "true") {
         this.isDeleting = false;
         this.loopNum++;
         delta = 500;
     }
 
-    if (this.toDelete === false) {
+    if (this.toDelete === "false") {
         this.isDeleting = false;
     }
 
