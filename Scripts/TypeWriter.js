@@ -21,14 +21,6 @@ TxtType.prototype.tick = function () {
     }
 
     this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-    
-    /*
-    THE ABOVE LINE PREVIOUSLY WAS
-    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-    IF ANY ERRORS OCCUR WITH THE PROGRAM, THEN THIS IS MOST LIKELY THE LINE THAT
-    NEEDS REPLACING
-    */
 
     var that = this;
     var delta = 200 - Math.random() * 100;
