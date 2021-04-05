@@ -20,7 +20,7 @@ TxtType.prototype.tick = function () {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">' + $.find(this.txt) + '</span>';
+    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
     
     /*
     THE ABOVE LINE PREVIOUSLY WAS
