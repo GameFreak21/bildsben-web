@@ -1,3 +1,4 @@
+
 var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -27,7 +28,7 @@ TxtType.prototype.tick = function () {
 
     if (!this.isDeleting && this.txt === fullTxt) {
         delta = this.period;
-        this.isDeleting = true;
+        this.isDeleting = false;
     } else if (this.isDeleting && this.txt === '') {
         this.isDeleting = false;
         this.loopNum++;
@@ -40,7 +41,7 @@ TxtType.prototype.tick = function () {
 };
 
 window.onload = function () {
-    var elements = document.getElementsByClassName('typewrite');
+    var elements = document.getElementsByClassName('typewritenodel');
     setTimeout(() => {    
         for (var i = 0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
