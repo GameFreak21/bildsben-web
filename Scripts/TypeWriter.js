@@ -40,21 +40,6 @@ TxtType.prototype.tick = function () {
     }, delta);
 };
 
-window.onload = function () {
-    var elements = document.getElementsByClassName('typewrite');
-    setTimeout(() => {    
-        for (var i = 0; i < elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-                new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
-        }
-    }, 1000);
-
-};
-
-
 var TxtTypeNoDel = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -97,7 +82,7 @@ TxtType.prototype.tick = function () {
 };
 
 window.onload = function () {
-    var elements = document.getElementsByClassName('typewritenodel');
+    var elements = document.getElementsByClassName('typewrite');
     setTimeout(() => {    
         for (var i = 0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
@@ -107,5 +92,4 @@ window.onload = function () {
             }
         }
     }, 1000);
-
 };
