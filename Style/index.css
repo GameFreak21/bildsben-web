@@ -184,6 +184,13 @@ html, body {
     margin-right: 100px;
 }
 
+.PRICING .TEXT {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .I-CAN-WORK-WITH {
     text-align: center;
     margin-left: 10px;
