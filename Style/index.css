@@ -161,6 +161,14 @@ html, body {
     margin-bottom: 50px;
 }
 
+.PRICING .SUBTITLE {
+    text-shadow: 2px 2px 5px #949494;
+    text-align: center;
+    margin-top: -35px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
 .PRICING .TEXT {
     font-size: 25px;
     text-align: center;
