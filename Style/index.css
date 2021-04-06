@@ -143,7 +143,7 @@ html, body {
     background-color: transparent;
     color: #f0f0f0;
     border: 2px solid white;
-    border-radius: 1px;
+    border-radius: 5px;
 }
 
 .PRICING-BUTTON:hover {
