@@ -6,4 +6,5 @@ bildsben.tech does not host previous versions, so the current version is the onl
 ## Reporting a Vulnerability
 
 Email me benvoisey [@T] mail [D0T] ru
+
 Submit a pull request
