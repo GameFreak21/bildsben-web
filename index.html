@@ -65,6 +65,11 @@ You may wish to adjust your window to fit this line length.
                         <p class="TOPRICINGCLASS">View Pricing</p>
                     </a>
                 </div>
+                <div class="MY-PROJECTS-BUTTON">
+                    <a rel="noreferrer" href="#MY-PROJECTS" aria-label="My Projects">
+                        <p class="TOMYPROJECTSCLASS">View Pricing</p>
+                    </a>
+                </div>
 
                 <div class="ARCTIC-AND-GITHUB">
                     <a aria-label="Hire Me!" rel="noreferrer" href="https://www.instagram.com/2_5_14_"
@@ -241,7 +246,7 @@ You may wish to adjust your window to fit this line length.
                 </p>
             </div>
 
-            <hr class="hr">
+            <hr class="hr" id="MY-PROJECTS">
 
             <div class="MY-PROJECTS">
                 <p class="TITLE"><b>My Projects</b></p>
@@ -362,5 +367,6 @@ You may wish to adjust your window to fit this line length.
         //BUTTONV
         gsap.from("p.TOABOUTMECLASS", { duration: 0.75, y: 7.5, opacity: 0, delay: 0.65 });
         gsap.from("p.TOPRICINGCLASS", { duration: 0.75, y: 7.5, opacity: 0, delay: 0.65 });
+        gsap.from("p.TOMYPROJECTSCLASS", { duration: 0.75, y: 7.5, opacity: 0, delay: 0.65 });
     })
 </script>

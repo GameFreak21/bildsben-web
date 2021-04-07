@@ -223,6 +223,40 @@ html, body {
     opacity: 0.75;
 }
 
+.MY-PROJECTS-BUTTON {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.MY-PROJECTS-BUTTON a {
+    text-decoration: none;
+        text-shadow: 2px 2px 5px #949494;
+}
+
+.MY-PROJECTS-BUTTON svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MY-PROJECTS-BUTTON p {
+    padding: 5px;
+    font-size: 25px;
+    background-color: transparent;
+    color: #f0f0f0;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.MY-PROJECTS-BUTTON:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
 .MY-PROJECTS {
     width: 100%;
     text-align: center;
