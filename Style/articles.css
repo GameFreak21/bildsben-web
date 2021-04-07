@@ -1,12 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,80);
-
 * {
     margin: 0;
     padding: 0;
 }
 
-html,
-body {
+html, body {
     height: 100%;
     border: none;
     overflow-x: hidden;
@@ -80,10 +78,9 @@ body {
     background-color: rgba(0, 0, 0, 0.76);
 }
 
-.FooterP {
+.FooterP{
     margin-top: 15px;
 }
-
 .FOOTER p {
     text-align: center;
     position: relative;
@@ -91,7 +88,7 @@ body {
     margin-bottom: 2.5px;
 }
 
-.CopyRight {
+.CopyRight{
     margin-top: 5px;
     margin-bottom: 15px;
 }
