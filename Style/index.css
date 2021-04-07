@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,80);
+
 * {
     margin: 0;
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     border: none;
     overflow-x: hidden;
@@ -66,7 +68,7 @@ html, body {
     text-shadow: 2px 2px 5px #949494;
 }
 
-.typewrite>.wrap {
+.typewrite > .wrap {
     border-right: 0.08em solid #fff
 }
 
@@ -79,7 +81,7 @@ html, body {
 
 .MORE-ABOUT-ME-BUTTON a {
     text-decoration: none;
-        text-shadow: 2px 2px 5px #949494;
+    text-shadow: 2px 2px 5px #949494;
 }
 
 .MORE-ABOUT-ME-BUTTON svg {
@@ -136,7 +138,7 @@ html, body {
 
 .PRICING-BUTTON a {
     text-decoration: none;
-        text-shadow: 2px 2px 5px #949494;
+    text-shadow: 2px 2px 5px #949494;
 }
 
 .PRICING-BUTTON svg {
@@ -218,7 +220,7 @@ html, body {
     margin-right: 5px;
 }
 
-.icon:hover{
+.icon:hover {
     cursor: pointer;
     opacity: 0.75;
 }
@@ -232,7 +234,7 @@ html, body {
 
 .MY-PROJECTS-BUTTON a {
     text-decoration: none;
-        text-shadow: 2px 2px 5px #949494;
+    text-shadow: 2px 2px 5px #949494;
 }
 
 .MY-PROJECTS-BUTTON svg {
@@ -284,6 +286,7 @@ html, body {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
     }
+
     .GRID2 {
         width: fit-content;
         margin-left: auto;
@@ -390,9 +393,10 @@ html, body {
     background-color: rgba(0, 0, 0, 0.76);
 }
 
-.FooterP{
+.FooterP {
     margin-top: 15px;
 }
+
 .FOOTER p {
     text-align: center;
     position: relative;
@@ -417,26 +421,26 @@ html, body {
     height: 52px;
 }
 
-.INSTA-GITHUB-PAYPAL a .ar{
+.INSTA-GITHUB-PAYPAL a .ar {
     transform: scale(0.85);
 }
 
-.SOCIAL:hover{
+.SOCIAL:hover {
     opacity: 0.5;
     cursor: pointer;
 }
 
-.FIRST:hover{
+.FIRST:hover {
     opacity: 0.5;
     cursor: pointer;
 }
 
-.SECOND:hover{
+.SECOND:hover {
     opacity: 0.5;
     cursor: pointer;
 }
 
-.THIRD:hover{
+.THIRD:hover {
     opacity: 0.5;
     cursor: pointer;
 }
@@ -451,6 +455,7 @@ html, body {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
     }
+
     .GRID2 {
         width: fit-content;
         margin-left: auto;
@@ -472,6 +477,7 @@ html, body {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
     }
+
     .GRID2 {
         width: fit-content;
         margin-left: auto;
@@ -481,6 +487,7 @@ html, body {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
     }
+
     .MORE-ABOUT-ME .TEXT {
         margin-left: 10px;
         margin-right: 10px;
@@ -488,7 +495,7 @@ html, body {
     }
 }
 
-.CopyRight{
+.CopyRight {
     margin-top: 5px;
     margin-bottom: 15px;
 }
