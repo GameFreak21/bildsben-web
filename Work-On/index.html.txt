@@ -1,0 +1,16 @@
+<body>
+    <div class="contentHEADER" id="contentHEADER">
+        <div class="header noSelect">
+            <div class="header-content">
+                <a rel="noreferrer" href="/" class="LogoHEADER"><img class="logoHEADER" src="./storage/Logo.png" alt="logo" />
+                    <h1 class="logoName">Arctic Studio</h1>
+                </a>
+                <div class="nav">
+                    <a class="NavOneHEADER" rel="noreferrer" href="/contact">CONTACT</a>
+                    <a class="NavTwoHEADER" rel="noreferrer" href="/support">SUPPORT US</a>
+                    <!--<a class="NavThirHEADER" rel="noreferrer" href="/merch">MERCH</a>-->
+                    <a class="NavFourHEADER" rel="noreferrer" href="/projects">OUR PROJECTS</a>
+                </div>
+            </div>
+        </div>
+
