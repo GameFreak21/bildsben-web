@@ -24,8 +24,8 @@ TxtType.prototype.tick = function () {
 	var that = this;
 	var delta = 200 - Math.random() * 100;
 
-	if (this.isDeleting) { 
-		delta /= 2; 
+	if (this.isDeleting) {
+		delta /= 2;
 	}
 
 	if (!this.isDeleting && this.toDelete === "true" && this.txt === fullTxt) {
@@ -62,7 +62,7 @@ window.onload = function () {
 	// Typewrite
 
 	var elements = document.getElementsByClassName('typewrite');
-	setTimeout(() => {	
+	setTimeout(() => {
 		for (var i = 0; i < elements.length; i++) {
 			var toRotate = elements[i].getAttribute('data-type');
 			var period = elements[i].getAttribute('data-period');
